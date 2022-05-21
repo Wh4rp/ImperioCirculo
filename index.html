@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <title>Circle Empires</title>
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="src/favicon.ico">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="">
   </head>
-  <body>
+
+  <body class="container">
 
     <div class="header">
-
-      <div class="logo">
-        <a href="index.html"><img src="/src/logo.png" alt="logo"></a>
-      </div>
-
-      <div class="nav-bar">
-        <a href="https://discord.com/invite/iceberginteractive"><img src="/src/discord-icon.png" alt="discord"></a>
-        <a href="https://gamejolt.com/games/CET/121625"><img src="/src/gamejolt-icon.png" alt="gamejolt"></a>
-        <a href="https://twitter.com/CircleEmpiresG"><img src="/src/twitter-icon.png" alt="twitter"></a>
-        <a href=""><img src="/src/facebook-icon.png" alt="facebook"></a>
-      </div>
+      <span style="display:inline-block">
+        <div class="logo">
+          <a href="index.html"><img src="src/logo.png" alt="logo"></a>
+        </div>
+      </span>
+      <span style="float: right;">
+        <div class="nav-bar">
+          <a href="https://discord.com/invite/iceberginteractive"><img src="src/discord-icon.png" alt="discord"></a>
+          <a href="https://gamejolt.com/games/CET/121625"><img src="src/gamejolt-icon.png" alt="gamejolt"></a>
+          <a href="https://twitter.com/CircleEmpiresG"><img src="src/twitter-icon.png" alt="twitter"></a>
+          <a href=""><img src="src/facebook-icon.png" alt="facebook"></a>
+        </div>
+      </span>
     </div>
 
     <div class="trailer" style="position:relative;padding-top:56.25%;">
@@ -37,12 +41,13 @@
     </div>
 
     <div class="platforms">
-
-      <a href=""><img src="/srRc/xbox-icon.png" alt="xbox"></a>
-      <a href=""><img src="/src/playstation-icon.png" alt="playstation"></a>
-      <a href=""><img src="/src/nintendo-switch-icon.png" alt="nintendo switch"></a>
-      <a href="https://store.steampowered.com/app/1515260/Circle_Empires_Tactics/"><img src="/src/steam-icon.png" alt="steam"></a>
-
+      <h1 id="playnow">
+        PLAY NOW ON!
+      </h1>
+      <a class="plataform_item" href=""><img src="src/xbox-icon.png" alt="xbox"></a>
+      <a class="plataform_item" href=""><img src="src/playstation-icon.png" alt="playstation"></a>
+      <a class="plataform_item" href=""><img src="src/nintendo-switch-icon.png" alt="nintendo switch"></a>
+      <a class="plataform_item" href="https://store.steampowered.com/app/1515260/Circle_Empires_Tactics/"><img src="src/steam-icon.png" alt="steam"></a>
     </div>
 <!--
     <div class="subscription">
@@ -82,7 +87,7 @@
       <p>
         Circle Empires Tactics &#169; 2022. All Rights Reserved.
       </p>
-      <p>
+      <p id="email">
         circleempirestactics@gmail.com
       </p>
     </div>
