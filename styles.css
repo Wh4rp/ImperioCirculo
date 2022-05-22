@@ -4,18 +4,36 @@ body, p {
   margin: 0;
   padding: 0;
   border: 0;
-}
 
-body {
-  background: rgb(202, 193, 181);
 }
 
 /* TERMINA CSS RESET */
 
+.body {
+  background-color:#33333b;
+}
+
 /* EMPIEZA ENCABEZADO/NAVEGACIÓN */
 
 .header {
-background-color: rgb(24, 24, 24);
+  background: rgb(24, 24, 24);
+  display: inline-block;
+  width: 100%;
+}
+
+.logo  {
+  display: inherit;
+  padding: 0.5%;
+}
+
+.nav-bar {
+  float: right;
+  width: 15%;
+  height: 100%;
+}
+
+.nav-item {
+  margin: 6% 5%;
 }
 
 /* TERMINA ENCABEZADO/NAVEGACIÓN */
@@ -23,15 +41,14 @@ background-color: rgb(24, 24, 24);
 /* EMPIEZA TRAILER */
 
 .trailer {
-  position: relative;
-  padding-top: 50.25%;
+    position: relative;
+    padding-top: 56.25%;
 }
 
 .trailer iframe {
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
 }
@@ -41,7 +58,18 @@ background-color: rgb(24, 24, 24);
 /* EMPIEZA SECCIÓN DE PLATAFORMAS */
 
 .platforms {
-  background: rgb(231, 231, 231);
+  background-color: chocolate;
+  text-align: center;
+}
+
+.play-now {
+  text-align: center;
+  color: white;
+}
+
+.platforms-item {
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 /* TERMINA SECCIÓN DE PLATAFORMAS */
@@ -49,7 +77,36 @@ background-color: rgb(24, 24, 24);
 /* EMPIEZA SECCIÓN DE SUSCRIPCIÓN */
 
 .subscription {
-  background: aqua;
+  padding: 0.5em;
+  background-color: black;
+  text-align: center;
+}
+
+.subscription h3{
+  color: orange;
+}
+
+.subscription h4{
+  color: white;
+}
+
+.required-email {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b0b0b0;
+}
+
+.signup-form {
+  position: absolute;
+  left: -5000px;
+}
+
+.subscribe-button{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  background-color: #404040;
+  font-weight: bold;
 }
 
 /* TERMINA SECCIÓN DE SUSCRIPCIÓN */
@@ -66,16 +123,14 @@ background-color: rgb(24, 24, 24);
 /* EMPIEZA FOOTER*/
 
 .footer {
-
-  text-align: center;
-
   width: 100%;
   height: 10%;
-
+  padding-top: 1em;
+  text-align: center;
   background: rgb(24, 24, 24);
-  color: rgb(223, 223, 223);
+  color: rgb(223, 223, 233);
 }
 
-.footer p {
-  padding: 0.5%;
+#email{
+  padding-bottom: 1em;
 }

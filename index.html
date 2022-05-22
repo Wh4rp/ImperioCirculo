@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Circle Empires</title>
 
@@ -11,45 +12,56 @@
 
     <meta name="description" content="">
   </head>
+
   <body>
 
     <div class="header">
-
       <div class="logo">
         <a href="index.html"><img src="/src/logo.png" alt="logo"></a>
       </div>
-
       <div class="nav-bar">
-        <a href="https://discord.com/invite/iceberginteractive"><img src="/src/discord-icon.png" alt="discord"></a>
-        <a href="https://gamejolt.com/games/CET/121625"><img src="/src/gamejolt-icon.png" alt="gamejolt"></a>
-        <a href="https://twitter.com/CircleEmpiresG"><img src="/src/twitter-icon.png" alt="twitter"></a>
-        <a href=""><img src="/src/facebook-icon.png" alt="facebook"></a>
+
+        <a href="https://discord.com/invite/iceberginteractive"><img src="/src/discord-icon.png" alt="discord" class="nav-item"></a>
+
+        <a href="https://gamejolt.com/games/CET/121625"><img src="/src/gamejolt-icon.png" alt="gamejolt" class="nav-item"></a>
+
+        <a href="https://twitter.com/CircleEmpiresG"><img src="/src/twitter-icon.png" alt="twitter" class="nav-item" ></a>
+
+        <a href=""><img src="/src/facebook-icon.png" alt="facebook" class="nav-item" ></a>
+
       </div>
     </div>
 
     <div class="trailer">
-      <!-- Este video debe recubrir toda la pantalla de izquierda a derecha, y de arriba a abajo
-      solo hasta que cubra lo que se ve apenas se entra al sitio web -->
       <iframe
         src="https://www.youtube.com/embed/-0QXW5ug6eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
     </div>
 
-    <div class="platforms">
+    <div class="platforms play-now">
+      <h1>PLAY NOW ON!</h1>
 
-      <a href=""><img src="/src/xbox-icon.png" alt="xbox"></a>
-      <a href=""><img src="/src/playstation-icon.png" alt="playstation"></a>
-      <a href=""><img src="/src/nintendo-switch-icon.png" alt="nintendo switch"></a>
-      <a href="https://store.steampowered.com/app/1515260/Circle_Empires_Tactics/"><img src="/src/steam-icon.png" alt="steam"></a>
+      <a class="platforms-item" href=""><img src="/src/xbox-icon.png" alt="xbox"></a>
+
+      <a class="platforms-item" href=""><img src="/src/playstation-icon.png" alt="playstation"></a>
+
+      <a class="platforms-item" href=""><img src="/src/nintendo-switch-icon.png" alt="nintendo switch"></a>
+
+      <a class="platforms-item" href="https://store.steampowered.com/app/1515260/Circle_Empires_Tactics/"><img src="/src/steam-icon.png" alt="steam"></a>
 
     </div>
-<!--
+
     <div class="subscription">
-      Aquí es donde va la barra para suscribirse y recibir novedades al correo.
-      <button>Suscribete a la newsletter</button>
-      <form action="" method="post">correo@email.com</form>
+      <h3>Want to know about our next project?</h3>
+      <h4>subscribe to get notified</h4>
+      <!-- Begin MailChimp Signup Form -->
+      <form action="" method="post">
+        <input type="email" value="" name="EMAIL" class="required-email" placeholder="email address" required>
+        <div class="signup-form" aria-hidden="true"><input type="text" name="b_00f405d39dac1fd8790c3ac9c_72ab45f57e" tabindex="-1" value=""></div>
+        <input type="submit" value="Subscribe" name="subscribe" class="subscribe-button">
+      </form>
     </div>
--->
+    
     <div class="game-features">
 
       <div>
@@ -81,7 +93,7 @@
       <p>
         Circle Empires Tactics &#169; 2022. All Rights Reserved.
       </p>
-      <p>
+      <p id="email">
         circleempirestactics@gmail.com
       </p>
     </div>
