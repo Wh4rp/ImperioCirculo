@@ -1,30 +1,80 @@
-.container {
-  background-color:#33333b;
-  padding-right: 18%;
-  padding-left: 18%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+/* EMPIEZA CSS RESET */
+body, p {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+
 }
+
+/* TERMINA CSS RESET */
+
+.body {
+  background-color:#33333b;
+}
+
+/* EMPIEZA ENCABEZADO/NAVEGACIÓN */
 
 .header {
-  background: black;
-  padding: 0.5em;
+  background: rgb(24, 24, 24);
+  display: inline-block;
+  width: 100%;
 }
 
-#playnow {
-  text-align: center;
-  color: white;
+.logo  {
+  display: inherit;
+  padding: 0.5%;
 }
+
+.nav-bar {
+  float: right;
+  width: 15%;
+  height: 100%;
+}
+
+.nav-item {
+  margin: 6% 5%;
+}
+
+/* TERMINA ENCABEZADO/NAVEGACIÓN */
+
+/* EMPIEZA TRAILER */
+
+.trailer {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.trailer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* TERMINA TRAILER */
+
+/* EMPIEZA SECCIÓN DE PLATAFORMAS */
 
 .platforms {
   background-color: chocolate;
   text-align: center;
 }
 
-.plataform_item{
+.play-now {
+  text-align: center;
+  color: white;
+}
+
+.platforms-item {
   margin-left: 7%;
   margin-right: 7%;
 }
+
+/* TERMINA SECCIÓN DE PLATAFORMAS */
+
+/* EMPIEZA SECCIÓN DE SUSCRIPCIÓN */
 
 .subscription {
   padding: 0.5em;
@@ -46,6 +96,11 @@
   border-color: #b0b0b0;
 }
 
+.signup-form {
+  position: absolute;
+  left: -5000px;
+}
+
 .subscribe-button{
   border-style: solid;
   border-width: 1px;
@@ -54,14 +109,27 @@
   font-weight: bold;
 }
 
+/* TERMINA SECCIÓN DE SUSCRIPCIÓN */
+
+/* EMPIEZA SECCIÓN DE LORE */
+
+
+.game-features {
+  background: rgb(133, 133, 133);
+}
+
+/* TERMINA SECCIÓN DE LORE */
+
+/* EMPIEZA FOOTER*/
+
 .footer {
   width: 100%;
   height: 10%;
   padding-top: 1em;
   margin-bottom: 0em;
   text-align: center;
-  background: black;
-  color: white;
+  background: rgb(24, 24, 24);
+  color: rgb(223, 223, 233);
 }
 
 #email{
